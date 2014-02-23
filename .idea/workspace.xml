@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3cb01e4-79d1-46e6-ba79-58c43bb2548d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -107,7 +106,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
               <caret line="11" column="22" selection-start="122" selection-end="122" />
-              <folding />
+              <folding>
+                <marker date="1393176648000" expanded="true" signature="124:376" placeholder="before_install:" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +116,8 @@
       <file leaf-file-name="DataSource.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44387755" vertical-offset="0" max-vertical-offset="980">
-              <caret line="29" column="30" selection-start="924" selection-end="924" />
+            <state vertical-scroll-proportion="0.33438987" vertical-offset="224" max-vertical-offset="930">
+              <caret line="29" column="65" selection-start="959" selection-end="959" />
               <folding />
             </state>
           </provider>
@@ -172,8 +173,8 @@
         <option value="$PROJECT_DIR$/grails-app/domain/com/dorisoft/rental/Organization.groovy" />
         <option value="$PROJECT_DIR$/test/unit/com/dorisoft/rental/OrganizationSpec.groovy" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
       </list>
     </option>
   </component>
@@ -665,7 +666,7 @@
       <workItem from="1393123910809" duration="135000" />
       <workItem from="1393124817440" duration="3814000" />
       <workItem from="1393128794906" duration="80000" />
-      <workItem from="1393165311295" duration="8674000" />
+      <workItem from="1393165311295" duration="10782000" />
     </task>
     <task id="LOCAL-00001" summary="added organization test">
       <created>1393128102413</created>
@@ -711,11 +712,19 @@
       <created>1393181864333</created>
       <updated>1393181864333</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding to travis ci">
+      <created>1393182775298</created>
+      <updated>1393182775298</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adding to travis ci">
+      <created>1393183798243</created>
+      <updated>1393183798243</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16463000" />
+    <option name="totallyTimeSpent" value="18571000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -760,7 +769,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32830188" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3385063" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3385063" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924527" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -999,7 +1008,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <caret line="11" column="22" selection-start="122" selection-end="122" />
-          <folding />
+          <folding>
+            <marker date="1393176648000" expanded="true" signature="124:376" placeholder="before_install:" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,8 +1024,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44387755" vertical-offset="0" max-vertical-offset="980">
-          <caret line="29" column="30" selection-start="924" selection-end="924" />
+        <state vertical-scroll-proportion="0.33438987" vertical-offset="224" max-vertical-offset="930">
+          <caret line="29" column="65" selection-start="959" selection-end="959" />
           <folding />
         </state>
       </provider>
