@@ -27,9 +27,10 @@ environments {
     }
     production {
         dataSource {
+            dialect = 'org.hibernate.dialect.MySQL5InnoDBDialect'
             dbCreate = "update"
-            jndiName= "re_db1"
-            url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
+            jndiName= "java:comp/env/jdbc/re-dev1"
+
             properties {
                 // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
                 jmxEnabled = true
