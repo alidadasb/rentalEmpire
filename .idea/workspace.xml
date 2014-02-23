@@ -654,7 +654,7 @@
       <workItem from="1393123910809" duration="135000" />
       <workItem from="1393124817440" duration="3814000" />
       <workItem from="1393128794906" duration="80000" />
-      <workItem from="1393165311295" duration="5749000" />
+      <workItem from="1393165311295" duration="5994000" />
     </task>
     <task id="LOCAL-00001" summary="added organization test">
       <created>1393128102413</created>
@@ -684,11 +684,15 @@
       <created>1393173328555</created>
       <updated>1393173328555</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding to travis ci">
+      <created>1393176407825</created>
+      <updated>1393176407825</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13538000" />
+    <option name="totallyTimeSpent" value="13783000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
