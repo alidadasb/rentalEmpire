@@ -29,7 +29,7 @@ environments {
         dataSource {
             dialect = 'org.hibernate.dialect.MySQL5InnoDBDialect'
             dbCreate = "update"
-            jndiName= "java:comp/env/jdbc/re-dev1"
+            jndiName= "re-dev1"
 
             properties {
                 // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
