@@ -5,7 +5,7 @@ package com.dorisoft.rental
  */
 class Organization {
     String name
-    static hasMany = [properties:Property]
+    static hasMany = [rentalProperties :RentalProperty]
 
     static constraints = {
     }

@@ -9,7 +9,7 @@ import spock.lang.Specification
  * See the API for {@link grails.test.mixin.support.GrailsUnitTestMixin} for usage instructions
  */
 @TestMixin(GrailsUnitTestMixin)
-@Build([Organization,Property])
+@Build([Organization,RentalProperty])
 class OrganizationSpec extends Specification {
 
     def setup() {
@@ -23,10 +23,15 @@ class OrganizationSpec extends Specification {
         def org = Organization.buildWithoutSave(name: "Dorisa")
 
         when:
-        org.addToProperties(Property.build(name: "Shiny", propertyType:PropertyType.COMMERCIAL) )
+        org.addToRentalProperties(RentalProperty.build(name: "Shiny1", propertyType:PropertyType.COMMERCIAL) )
+        org.addToRentalProperties(RentalProperty.build(name: "Shiny2", propertyType:PropertyType.COMMERCIAL) )
+        org.addToRentalProperties(RentalProperty.build(name: "Shiny3", propertyType:PropertyType.COMMERCIAL) )
+        org.addToRentalProperties(RentalProperty.build(name: "Shiny4", propertyType:PropertyType.COMMERCIAL) )
+        org.save()
 
         then:
         Organization.count() == 1
-        Property.count == 1
+        RentalProperty.count == 4
     }
+
 }
