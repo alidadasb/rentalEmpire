@@ -9,7 +9,7 @@ branches:
 
 env:
 - GRAILS_VERSION=2.3.6
-- GRAILS_VERSION=2.3.0
+- GRAILS_VERSION=2.3.2
 
 before_install:
 - rm -rf ~/.gvm
